@@ -1,0 +1,64 @@
+
+.modal-comment-body {
+    padding: 10px;
+    overflow: scroll;
+    display: flex;
+}
+
+.tweet_to_reply{
+    padding-right:20px ;
+    overflow: hidden;
+}
+
+.div_img_tweet_rep{
+    height: 270px;
+    width: 380px;
+    background-size:cover ;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+}
+
+.form_input_tweet_reply{
+
+    width: 100%;
+    height: 110px;
+    border-bottom: solid 6px rgb(204, 204, 204);
+    padding: 10px;
+    border: solid 1px rgb(212, 212, 212);
+    background-color:white;
+    z-index: 30;
+
+}
+
+.button_repondre{
+    border-radius: 20px;
+    padding: 2px;
+    height: 30px;
+    font-size: 13px;
+    float: right;
+    width: 70px;
+    border: 0px;
+    color: white;
+    font-family: manjari;
+    background-color: rgb(85, 158, 255);
+
+}
+
+.button_retweet{
+    border-radius: 20px;
+    padding: 2px;
+    height: 30px;
+    font-size: 13px;
+    float: right;
+    width: 70px;
+    border: 0px;
+    color: white;
+    font-family: manjari;
+    background-color: rgb(85, 158, 255);
+
+}
+
+.tweet_base{
+    border: solid 1px rgb(212, 212, 212);
+}

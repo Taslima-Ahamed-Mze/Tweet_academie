@@ -1,0 +1,721 @@
+nav{
+    padding-left: 40px;
+    padding-top: 30px;
+    /* background:  linear-gradient(217deg, rgb(165, 244, 255), rgb(85, 158, 255) 70.71%); */
+
+}
+.menu_vertical{
+    display: none;
+}
+body{
+    margin: 0px;
+    
+}
+
+.hidden{
+    display: none;
+}
+
+.section_index{
+    display: flex;
+}
+
+
+.top{
+    display: none;
+}
+
+.h3_logo{
+    font-family: manjari;
+    color: black;
+    font-size: 20px;
+    
+}
+
+p{
+    font-family: arial;
+}
+section{
+    margin-top: 0px; 
+    padding: 20px 0;  
+}
+
+.actu_menu{
+    display: flex;
+    width: 100%;
+}
+
+.p_follow {
+    font-family: Manjari;
+    padding-left: 15px;
+    font-weight: 700;
+    padding-top: 5px;
+    border: 1px solid rgb(202, 202, 202) ;
+}
+
+/***MENU***/
+.div_info_menu{
+    
+    border-left: 1px rgb(201, 201, 201) solid;
+    margin-right: 0px;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.icons_menu{
+    position: -webkit-sticky;
+    position: sticky;
+    top:10px;
+}
+
+.button_menu{
+    border-radius: 50px;
+    text-align: left;
+    padding: 15px;
+    width: 60px;
+    height: 60px;
+    border: 0px;
+    color: black;
+    font-size: 30px;
+    font-family: manjari;
+    margin: 10px;
+    background-color: transparent;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    
+}
+
+.button_menu:hover{
+    border-radius: 50px;
+    text-align: left;
+    padding: 15px;
+    width: 60px;
+    height: 60px;
+    border: 0px;
+    color: white;
+    font-size: 30px;
+    font-family: manjari;
+    margin: 10px;
+    background-color: rgb(85, 158, 255);
+
+}
+
+
+
+
+
+/***PROFIL***/
+.h2_bio{
+    font-family: manjari;
+    font-size: 20px;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.h5_bio{
+    font-family: manjari;
+    font-size: 15px;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.birthdate_profil, .date_inscription {
+    text-align: center;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px;
+    width: 160px;
+    border: 0px;
+    color: white;
+    margin: 10px;
+    font-family: manjari;
+    background-color: rgb(85, 158, 255);
+    
+}
+
+.button_profil{
+    border-radius: 20px;
+    padding: 5px;
+    width: 160px;
+    height: 30px;
+    border: 0px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-family: manjari;
+    background-color: rgb(85, 158, 255);  
+}
+
+.div_followers_profil{
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    width: 50px;
+    height: 23px;
+    border: 0px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin: 10px;
+    font-family: manjari;
+    font-weight: 800;
+    background-color: rgb(85, 158, 255);
+
+}
+.border_section{
+    background:  linear-gradient(217deg, rgb(165, 244, 255), rgb(85, 158, 255) 70.71%);
+    height: 2px;
+    border-radius:10px;
+}
+.div_buttons{
+    width: max-content;
+    margin: auto;
+}
+
+.br_profil{
+    display: none;
+}
+
+.pseudo_profil{
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+}
+.photo_profil{
+    background-image: url('https://clinicforspecialchildren.org/wp-content/uploads/2016/08/avatar-placeholder.gif?w=640');
+    background-size:cover;
+    height: 120px;
+    width: 120px;
+    border-radius:100px ;
+    z-index: 10;
+    margin: auto;
+    border: solid white 5px;  
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s; 
+}
+
+
+.div_info_profil{
+    margin-right: 20px;
+    width: 100%;
+    border: 1px solid rgb(202, 202, 202);
+}
+
+.background_picture_info_profil{
+    height:140px; 
+    background-color: rgb(85, 158, 255);
+    position: relative;
+    bottom: 140px;
+    width: 100%;
+    margin: auto;
+}
+
+
+.mini_photo_profil{
+    /* background-image: url('https://clinicforspecialchildren.org/wp-content/uploads/2016/08/avatar-placeholder.gif?w=640'); */
+    background-size:cover;
+    height: 50px;
+    width: 50px;
+    border-radius:100px ;
+    z-index: 10;
+}
+
+.div_fil_actu{
+    padding-top:10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    border: solid 1px rgb(212, 212, 212);
+    
+}
+
+.following {
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+
+.following_profil {
+    display: flex;
+    align-items: center;
+}
+
+.following_profil_name .nom {
+    font-weight: bold;
+}
+
+.following_profil_name .pseudo {
+    color: rgb(110, 110, 110);
+}
+
+.following_profil_info {
+    margin-left: 20px;
+}
+
+.info_profil {
+    padding: 0 40px;
+}
+
+/*** NEW TWEET ***/
+.form_input_tweet{
+    width: 100%;
+    height: 110px;
+    border-bottom: solid 6px rgb(204, 204, 204);
+    padding: 10px;
+    border: solid 1px rgb(212, 212, 212);
+}
+
+.div_img_tweet {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 300px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.input_tweet{
+    margin-top: 5px;
+    
+    height: 40px;
+    width: 80%;
+    font-family: manjari;
+    font-size: 20px;
+    border: 0px;   
+}
+
+.div_buttons_tweet{
+    height: 40px;
+    width: 140px;
+    float: right;
+    padding-left: 50px;
+}
+
+.button_tweeter{
+    border-radius: 20px;
+    padding: 2px;
+    height: 30px;
+    font-size: 13px;
+    float: right;
+    width: 60px;
+    border: 0px;
+    color: white;
+    font-family: manjari;
+    background-color: rgb(85, 158, 255);
+
+}
+
+.button_tweet{
+    border-radius: 20px;
+    padding: 3px;
+    font-size: 15px;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border: 0px;
+    color: white;
+    font-family: manjari;
+    background-color: rgb(85, 158, 255);
+}
+
+.mini_photo_profil{
+    /* background-image: url('https://clinicforspecialchildren.org/wp-content/uploads/2016/08/avatar-placeholder.gif?w=640'); */
+    background-size:cover;
+    height: 50px;
+    width: 50px;
+    border-radius:100px ;
+    z-index: 10;
+    margin-right: 10px;  
+}
+
+
+/*****TWEETS-MEDIAS-J'AIME*****/
+
+.navbar {
+    margin-top: 40px;
+}
+
+.nav-item:hover {
+    background-color: rgb(240, 249, 255);
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #646464;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    color:rgb(85, 158, 255);
+}
+
+.nav-link a:focus a:active {
+    border-bottom: 2px solid rgb(85, 158, 255);
+}
+
+:target {
+    border-bottom: 2px solid rgb(85, 158, 255);
+}
+
+
+/***************MOYEN**************/
+@media (max-width:990px){
+
+
+    /***PROFIL***/
+    .photo_profil{
+        background-image: url('https://clinicforspecialchildren.org/wp-content/uploads/2016/08/avatar-placeholder.gif?w=640');
+        background-size:cover;
+        height: 120px;
+        margin: auto;
+        width: 120px;
+        border-radius:100px ;
+        z-index: 10;
+        border: solid white 5px;  
+        -webkit-transition-duration: 0.8s;
+        transition-duration: 0.8s; 
+    }
+
+    
+
+    .h2_bio{
+        font-family: manjari;
+        font-size: 20px;
+        -webkit-transition-duration: 0.8s;
+        transition-duration: 0.8s;
+    }
+    
+    .h5_bio{
+        font-family: manjari;
+        font-size: 15px;
+        -webkit-transition-duration: 0.8s;
+        transition-duration: 0.8s;
+    }
+
+    .actu_menu{  
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .titre {
+        margin-top: 100px;
+    }
+
+    .div_fil_actu{
+        top:50px;
+        padding-top: 20px;
+        flex-direction: column-reverse;
+        width: 100%;
+        border: solid 1px rgb(212, 212, 212);
+    }
+
+    .div_img_tweet {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+
+
+/***************PETIT**************/
+@media (max-width:768px){
+
+    .top{
+        display: block;
+        position: -webkit-sticky;
+        position: sticky;
+        top:100px;
+        left: 660px;
+        border: solid;
+        border-radius: 40px;
+        z-index: 10;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        padding-top: 5px;
+        color: white;
+        background-color: rgb(85, 158, 255);
+    }
+
+    .menu_vertical{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: -webkit-sticky;
+        position: sticky;
+        bottom:100px;
+        left: 660px;
+        border-radius: 40px;
+        z-index: 10;
+        width: 40px;
+        height: 700px;
+        text-align: center;
+        padding-top: 5px;
+        color: white;
+    }
+
+    .div_info_follow{
+        display: none;
+    }
+
+
+    /***PROFIL***/
+
+    .chiffres_follows{
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .section_profil_followers{
+        border: 0px;
+    }
+
+    .br_profil{
+        display: block;
+    }
+
+    .bio{
+        font-size: 20px;
+    }
+
+    .h2_bio{
+        font-size: 40px;
+    }
+
+    .p_chiffres{
+        font-size: 18px;
+    }
+
+    .photo_profil{
+        background-image: url('https://clinicforspecialchildren.org/wp-content/uploads/2016/08/avatar-placeholder.gif?w=640');
+        background-size:cover;
+        height: 240px;
+        width: 240px;
+        border-radius:200px ;
+        z-index: 10;
+        margin: auto;
+        border: solid white 5px;  
+        -webkit-transition-duration: 0.8s;
+        transition-duration: 0.8s; 
+    }
+
+    .following_bio .bio{
+        font-size: 16px;
+    }
+
+    /***MENU***/
+
+    #div_menuu {
+        display: none;
+    }
+    
+    .div_info_menu{
+        position: relative;
+        border-left:0px ;
+        top:0px;
+        width: 100%;
+        height: 50px;;
+        height: auto;
+        margin-left: 0px;
+        display: flex;
+        flex-wrap: nowrap;
+        border:solid;
+        display: none;
+        
+    }
+
+
+    .button_menu{
+        border-radius: 50px;
+        text-align: center;
+        padding: 5px;
+        width: auto;
+        margin-bottom: 10px;
+        height: 30px;
+        border: 0px;
+        color: black;
+        font-size: 20px;
+        font-family: manjari;
+        background-color: rgb(255, 255, 255);
+        -webkit-transition-duration: 0.8s;
+        transition-duration: 0.8s;    
+    }
+
+    .button_menu:hover{
+        border-radius: 50px;
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 10px;
+        width: auto;
+        height: 30px;
+        border: 0px;
+        color: white;
+        font-size: 20px;
+        font-family: manjari;
+        background-color: rgb(85, 158, 255);
+    
+    }
+
+    .button_tweeter{
+        border-radius: 20px;
+        padding: 10px;
+        margin-top: 10px;
+        height: 40px;
+        font-size: 18px;
+        float: right;
+        width: 90px;
+        border: 0px;
+        color: white;
+        font-family: manjari;
+        background-color: rgb(85, 158, 255);
+    
+    }
+    
+    .form_input_tweet{
+        height: 180px;
+    }
+    .input_tweet{
+        margin-top: 5px;
+        
+        height: 100px;
+        width: 100%;
+        font-family: manjari;
+        font-size: 20px;
+        border: 0px;   
+    }
+
+    .icons_menu{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        position: relative;
+        top:0px;
+    }
+
+    .birthdate_profil {
+        font-size:15px;
+    }
+
+    .date_inscription {
+        font-size:15px;
+        margin-bottom: 50px;
+    }
+
+    .pseudo_profil{
+        font-size:20px;
+    }
+
+    .div_fil_actu{
+        padding-top:10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        border: solid 1px rgb(212, 212, 212);
+    }
+
+    .div_img_tweet {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+
+/***TWEET***/
+
+.new_tweet{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(192, 192, 192);
+    padding-left: 10px;
+}
+
+.titre_contenu_tweet{
+    width: 90%;
+    margin-left: 10px;
+}
+
+.contenu_tweet{
+    font-size: 14px;
+}
+
+.buttons_tweet{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_reaction_tweet{
+    width: 30%;
+    height: max-content;
+    color: rgb(85, 158, 255);
+    background-color: white;
+    transition-duration: 0.8s; 
+}
+
+.button_reaction_tweet:hover{
+    width: 30%;
+    background-color: rgb(85, 158, 255);
+    color: white;
+    height: max-content;
+}
+
+
+/***************MOYEN-GRAND**************/
+@media (max-width:990px){
+    .new_tweet{
+        position: relative;
+        top:0px;
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .titre_contenu_tweet{
+        width: 85%;
+        margin-left: 10px;
+    }
+
+    .p_nom_tweet{
+        font-size:20px;
+    }
+    .contenu_tweet{
+        font-size: 20px;
+    }
+}
+
+
+
+/***************PETIT**************/
+@media (max-width:768px){
+    .new_tweet{
+        position: relative;
+        top:0px;
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .titre_contenu_tweet{
+        width: 85%;
+        margin-left: 10px;
+    }
+
+    .p_nom_tweet{
+        font-size:20px;
+    }
+    .contenu_tweet{
+        font-size: 20px;
+    }
+}

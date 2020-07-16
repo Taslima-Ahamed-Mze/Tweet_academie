@@ -1,0 +1,106 @@
+.new_tweet{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(192, 192, 192);
+    padding-left: 10px;
+}
+
+.titre_contenu_tweet{
+    width: 90%;
+    margin-left: 10px;
+}
+
+.contenu_tweet{
+    font-size: 14px;
+}
+
+.buttons_tweet{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_reaction_tweet{
+    width: 30%;
+    height: max-content;
+    color: rgb(85, 158, 255);
+    background-color: white; 
+    transition-duration: 0.8s; 
+}
+
+.button_reaction_tweet:hover{
+    width: 30%;
+    background-color: rgb(85, 158, 255);
+    color: white;
+    height: max-content;
+} 
+
+
+
+
+/***RECHERCHE***/
+.form_search{
+    border: 2px solid #58bfe7;
+    border-radius:30px; 
+    height:40px;
+    display: flex;
+}
+
+#search{
+    border: none;
+    height:20px;
+    margin-top: 7px;
+    margin-left: 10px;
+    width: 90%;
+}
+
+.link_profil{
+    color:black;
+}
+
+/***************MOYEN-GRAND**************/
+@media (max-width:990px){
+    .new_tweet{
+        position: relative;
+        top:0px;
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .titre_contenu_tweet{
+        width: 85%;
+        margin-left: 10px;
+    }
+
+    .p_nom_tweet{
+        font-size:20px;
+    }
+    .contenu_tweet{
+        font-size: 20px;
+    }
+}
+
+
+
+/***************PETIT**************/
+@media (max-width:768px){
+    .new_tweet{
+        position: relative;
+        top:0px;
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .titre_contenu_tweet{
+        width: 85%;
+        margin-left: 10px;
+    }
+
+    .p_nom_tweet{
+        font-size:20px;
+    }
+    .contenu_tweet{
+        font-size: 20px;
+    }
+}

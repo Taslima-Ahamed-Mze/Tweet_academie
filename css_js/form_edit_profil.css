@@ -1,0 +1,126 @@
+#profil_image_upload {
+    border: 2px solid #58bfe7;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    top: 160px;
+    left: 40px;
+}
+
+#banner_image_upload {
+    border: 2px solid #969696;
+    background-color: #afadad;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 200px;
+}
+
+#profil_image_upload > input, #banner_image_upload > input {
+    display: none;
+}
+
+#profil_image_upload img, #banner_image_upload img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
+.modal-body input:focus + label, .modal-body textarea:focus + label {
+    color: #58bfe7;
+}
+
+.modal-body {
+    padding: 0;
+    max-height: 600px;
+}
+
+.modal-content  {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px; 
+}
+
+.modal-header {
+    padding: 0 15px;
+}
+
+.modal-header .close {
+    margin: 0;
+}
+
+/* [aria-hidden="true"] {
+    color: #ffffff;
+} */
+
+#button_profile {
+    background-color: #1fa4f1;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 4px 24px;
+    font-weight: bold;
+}
+
+
+/***SWITCH MODE***/
+
+.switch {
+    align-self: flex-end;
+    margin: 0.9375rem;
+}
+.inner-switch {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 1.25rem;
+    width: 3.125rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.1875rem;
+    margin-left: 0.3125rem;
+}
+
+.dark,
+.dark * {
+    background-color: #222;
+    color: #e6e6e6;
+    border-color: #e6e6e6;
+}
+
+
+/***THEME***/
+
+.theme_1{
+    width: 60px;
+    border-radius: 5px;
+    cursor:pointer;
+   
+}
+
+.theme_2{
+    width: 60px;
+    border-radius: 5px;
+    cursor:pointer;
+    
+}
+
+.theme_3{
+    width: 60px;
+    border-radius: 5px;
+    cursor:pointer;
+    
+}
+
+.theme_4{
+    width: 60px;
+    border-radius: 5px;
+    cursor:pointer;
+    
+}
